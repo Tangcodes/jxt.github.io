@@ -2140,6 +2140,20 @@ input, select, textarea {
 				width: 150%;
 			}
 
+		.image.timeline {
+			border-radius: 100%;
+		}
+
+			.image.timeline:before {
+				display: none;
+			}
+
+			.image.timeline img {
+				border: solid 0.5em rgba(144, 144, 144, 0.25);
+				border-radius: 100%;
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
@@ -2548,11 +2562,11 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0 0;
 		}
 
 		.work-item h3 {
