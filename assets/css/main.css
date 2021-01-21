@@ -1788,6 +1788,10 @@ input, select, textarea {
 		font-size: 2em;
 	}
 
+	p.travel {
+		text-align: center;
+	}
+
 /* Form */
 
 	form {
@@ -2152,6 +2156,17 @@ input, select, textarea {
 				border: solid 0.5em rgba(144, 144, 144, 0.25);
 				border-radius: 100%;
 				width: 100%;
+			}
+
+		.image.travel {
+		}
+
+			.image.travel:before {
+				display: none;
+			}
+
+			.image.travel img {
+				height: 9em;
 			}
 
 /* List */
